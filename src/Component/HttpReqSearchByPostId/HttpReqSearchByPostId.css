@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    gap: 20px; 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .input-container {
+  }
+  
+  .comment-list {
+  }
+  
+  .comment-card {
+    flex-direction: row; 
+
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .no-comments {
+    color: #888;
+  }
+  
